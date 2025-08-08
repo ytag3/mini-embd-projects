@@ -1,7 +1,6 @@
 # Embedded Systems Mini-Projects
 
-A collection of tiny embedded systems projects built during my self-study in ARM Cortex-M development, inspired by the **FastBit Embedded Academy** course.  
-Each project targets a core skill in bare-metal programming, peripheral control, interrupt handling and basic RTOS usage.
+A collection of tiny embedded systems projects built during my self-study in ARM Cortex-M development, inspired by *FastBit Embedded Academy* courses. Each project targets a core skill in bare-metal programming, peripheral control, interrupt handling and basic RTOS usage.
 
 ## Projects
 
@@ -15,5 +14,4 @@ Each project targets a core skill in bare-metal programming, peripheral control,
 
 ##  About
 
-Part of my learning path towards a solid foundation in embedded firmware development.  
-These projects document my growth in **microcontroller fundamentals** through hands-on, working code.
+Part of my learning path towards a solid foundation in embedded firmware development. These projects document my growth in **microcontroller fundamentals** through hands-on, working code.
