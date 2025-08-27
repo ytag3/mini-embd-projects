@@ -9,8 +9,10 @@ A collection of tiny embedded systems projects built during my self-study in ARM
 
 ## Skills & Concepts
 
-- ARM Cortex-M register-level programming  
-- Interrupt handling and NVIC configuration  
+- ARM Cortex-M register-level programming
+- Interrupt handling and NVIC configuration
+- Debugging via disassembly, step through (gdb and openOCD), and fault registers
+- Building and linking and compiling baremetal style
 
 ##  About
 
