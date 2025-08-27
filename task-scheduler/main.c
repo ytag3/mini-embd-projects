@@ -73,6 +73,8 @@ int main(void)
 	enable_processor_faults();
 	init_scheduler_stack(SCHED_STACK_START);
 
+	printf("Implementation of simple task scheduler\n");
+
 	init_task_stack();
 	led_init_all();
 	init_systick_timer(TICK_HZ);
@@ -86,6 +88,7 @@ int main(void)
 //user tasks
 void task1_handler(void){
 	while(1){
+		printf("Task 1\n");
 		led_on(LED_GREEN);
 		task_delay(1000);
 		led_off(LED_GREEN);
@@ -94,6 +97,7 @@ void task1_handler(void){
 }
 void task2_handler(void){
 	while(1){
+		printf("Task 2\n");
 		led_on(LED_ORANGE);
 		task_delay(500);
 		led_off(LED_ORANGE);
@@ -102,6 +106,7 @@ void task2_handler(void){
 }
 void task3_handler(void){
 	while(1){
+		printf("Task 3\n");
 		led_on(LED_BLUE);
 		task_delay(250);
 		led_off(LED_BLUE);
@@ -110,6 +115,7 @@ void task3_handler(void){
 }
 void task4_handler(void){
 	while(1){
+		printf("Task 4\n");
 		led_on(LED_RED);
 		task_delay(125);
 		led_off(LED_RED);
